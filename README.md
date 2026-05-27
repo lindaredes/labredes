@@ -108,7 +108,8 @@ docker ps --filter "label=containerlab=lab"
 
 
 ```bash
-docker exec clab-lab-node-a ping -c 3 10.0.0.2
+ docker exec clab-ebpf-lab-node-a ping -c 3 10.0.0.2
+
 ```
 
 **Resultado esperado:** `0% packet loss`  
